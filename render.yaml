@@ -41,15 +41,15 @@ services:
           property: database
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
-          name: n8n-db
+          name: n8n-db-dev
           property: host
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase:
-          name: n8n-db
+          name: n8n-db-dev
           property: password
       - key: DB_POSTGRESDB_USER
         fromDatabase:
-          name: n8n-db
+          name: n8n-db-dev
           property: user
 
 databases:
